@@ -35,10 +35,10 @@ namespace Stream_Reader_Writer_Json_Xml.Models
         {
             foreach (var item in Employeeslist)
             {
-                if (id==item.ID)
+                if (id == item.ID)
                 {
                     Employeeslist.RemoveAt(item.ID);
-                
+                }
             }
 
         }
